@@ -1,4 +1,4 @@
-FROM elasticsearch:5
+FROM elasticsearch:5.6.14
 
 COPY elasticsearch.yml /usr/share/elasticsearch/config/
 COPY log4j2.properties /usr/share/elasticsearch/config/
